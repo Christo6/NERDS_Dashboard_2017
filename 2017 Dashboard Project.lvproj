@@ -30,6 +30,7 @@
 			<Item Name="Publish Drive PID.vi" Type="VI" URL="../VIs/1726/Publish Drive PID.vi"/>
 			<Item Name="Publish Turn PID.vi" Type="VI" URL="../VIs/1726/Publish Turn PID.vi"/>
 			<Item Name="Save Config.vi" Type="VI" URL="../VIs/1726/Save Config.vi"/>
+			<Item Name="Load Config.vi" Type="VI" URL="../VIs/1726/Load Config.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../VIs/Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -269,7 +270,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F12754D6-B5E0-496F-B50C-3EDB6F368199}</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
+				<Property Name="Bld_version.build" Type="Int">40</Property>
 				<Property Name="Bld_version.major" Type="Int">17</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
