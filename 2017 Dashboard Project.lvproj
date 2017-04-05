@@ -22,7 +22,13 @@
 			<Item Name="FPS Calculator.vi" Type="VI" URL="../VIs/Support/FPS Calculator.vi"/>
 			<Item Name="Get All Users Directory.vi" Type="VI" URL="../VIs/Support/Get All Users Directory.vi"/>
 		</Item>
-		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
+		<Item Name="Dashboard Main.vi" Type="VI" URL="../VIs/Dashboard Main.vi"/>
+		<Item Name="Publish X Axis.vi" Type="VI" URL="../VIs/1726/Publish X Axis.vi"/>
+		<Item Name="Publis Y Axis.vi" Type="VI" URL="../VIs/1726/Publis Y Axis.vi"/>
+		<Item Name="Publish Forward Trim.vi" Type="VI" URL="../VIs/1726/Publish Forward Trim.vi"/>
+		<Item Name="Publish Backward Trim.vi" Type="VI" URL="../VIs/1726/Publish Backward Trim.vi"/>
+		<Item Name="Publish Drive PID.vi" Type="VI" URL="../VIs/1726/Publish Drive PID.vi"/>
+		<Item Name="Publish Turn PID.vi" Type="VI" URL="../VIs/1726/Publish Turn PID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
