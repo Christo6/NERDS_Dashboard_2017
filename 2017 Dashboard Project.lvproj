@@ -22,13 +22,16 @@
 			<Item Name="FPS Calculator.vi" Type="VI" URL="../VIs/Support/FPS Calculator.vi"/>
 			<Item Name="Get All Users Directory.vi" Type="VI" URL="../VIs/Support/Get All Users Directory.vi"/>
 		</Item>
+		<Item Name="1726" Type="Folder">
+			<Item Name="Publish X Axis.vi" Type="VI" URL="../VIs/1726/Publish X Axis.vi"/>
+			<Item Name="Publis Y Axis.vi" Type="VI" URL="../VIs/1726/Publis Y Axis.vi"/>
+			<Item Name="Publish Forward Trim.vi" Type="VI" URL="../VIs/1726/Publish Forward Trim.vi"/>
+			<Item Name="Publish Backward Trim.vi" Type="VI" URL="../VIs/1726/Publish Backward Trim.vi"/>
+			<Item Name="Publish Drive PID.vi" Type="VI" URL="../VIs/1726/Publish Drive PID.vi"/>
+			<Item Name="Publish Turn PID.vi" Type="VI" URL="../VIs/1726/Publish Turn PID.vi"/>
+			<Item Name="Save Config.vi" Type="VI" URL="../VIs/1726/Save Config.vi"/>
+		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../VIs/Dashboard Main.vi"/>
-		<Item Name="Publish X Axis.vi" Type="VI" URL="../VIs/1726/Publish X Axis.vi"/>
-		<Item Name="Publis Y Axis.vi" Type="VI" URL="../VIs/1726/Publis Y Axis.vi"/>
-		<Item Name="Publish Forward Trim.vi" Type="VI" URL="../VIs/1726/Publish Forward Trim.vi"/>
-		<Item Name="Publish Backward Trim.vi" Type="VI" URL="../VIs/1726/Publish Backward Trim.vi"/>
-		<Item Name="Publish Drive PID.vi" Type="VI" URL="../VIs/1726/Publish Drive PID.vi"/>
-		<Item Name="Publish Turn PID.vi" Type="VI" URL="../VIs/1726/Publish Turn PID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -68,6 +71,7 @@
 				<Item Name="errorList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/errorList.vi"/>
 				<Item Name="Escape String2.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Escape String2.vi"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Field Data Manager.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data Manager.vi"/>
 				<Item Name="Field Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data.ctl"/>
 				<Item Name="Field ID.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field ID.ctl"/>
@@ -166,6 +170,7 @@
 				<Item Name="Skip to RPC Outputs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Skip to RPC Outputs.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="String Matches Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/String Matches Pattern.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Table Manager.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Table Manager.vi"/>
@@ -264,7 +269,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F12754D6-B5E0-496F-B50C-3EDB6F368199}</Property>
-				<Property Name="Bld_version.build" Type="Int">35</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">17</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
